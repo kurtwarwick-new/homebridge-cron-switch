@@ -6,7 +6,7 @@ A [homebridge](https://github.com/nfarina/homebridge) plugin that exposes to Hom
 
 Configuration can be done using [Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x).
 
-![Configuration](screenshots/configuration.png)
+<img src="screenshots/configuration.png" width=500 />
 
 ## Sample Configuration
 
@@ -19,6 +19,11 @@ Configuration can be done using [Homebridge Config UI X](https://github.com/oznu
     }   
 ]
 ```
+
+The above configuration will result in this:
+
+![Switch](screenshots/switch.gif)
+
 ### Configuration Definition
 
 * **accessory**: The identifier for the accessory (*CronSwitch*).
