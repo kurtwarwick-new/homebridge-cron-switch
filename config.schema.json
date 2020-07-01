@@ -1,0 +1,21 @@
+{
+    "pluginAlias": "CronSwitch",
+    "pluginType": "accessory",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "cron": {
+                "title": "CRON Expression",
+                "decription": "The time to fire off your job, in CRON syntax.",
+                "type": "string",
+                "required": true
+            }
+        }
+    }
+}
