@@ -6,7 +6,7 @@ A [homebridge](https://github.com/nfarina/homebridge) plugin that exposes to Hom
 
 Configuration can be done using [Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x).
 
-<img src="screenshots/configuration.png" width=500 style="box-shadow: 0 20px 20px -10px;" />
+<img src="screenshots/configuration.png" width=500 />
 
 ## Sample Configuration
 
@@ -22,7 +22,7 @@ Configuration can be done using [Homebridge Config UI X](https://github.com/oznu
 
 The above configuration will result in this:
 
-<img src="screenshots/switch.gif" width=500 style="box-shadow: 0 20px 20px -10px;" />
+![Switch](screenshots/switch.gif)
 
 ### Configuration Definition
 
