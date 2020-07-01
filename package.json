@@ -1,7 +1,7 @@
 {
   "name": "homebridge-cron-switch",
   "version": "0.0.1",
-  "description": "A homebridge plugin that exposes to HomeKit a switch that truns on using a CRON job schedule.",
+  "description": "A homebridge plugin that exposes to HomeKit a switch that turns on using a CRON job schedule.",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin",
