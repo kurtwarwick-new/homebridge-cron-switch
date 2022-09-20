@@ -40,7 +40,7 @@ class Accessory {
 
         let job = new cron(this.config.cron, () => {
             this.service.updateCharacteristic(Characteristic.On, true);
-            setTimeout(() => this.service.updateCharacteristic(Characteristic.On, false), 300);
+            setTimeout(() => this.service.updateCharacteristic(Characteristic.On, false), 2000);
         });
 
         job.start();
