@@ -1,6 +1,6 @@
 {
   "name": "homebridge-cron-switch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A homebridge plugin that exposes to HomeKit a switch that turns on using a CRON job schedule.",
   "license": "MIT",
   "keywords": [
@@ -15,19 +15,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kurtwarwick-new/homebridge-cron-switch.git"
+    "url": "git+https://github.com/via-justa/homebridge-cron-switch.git"
   },
   "dependencies": {
-    "cron": "^1.8.2"
+    "cron": "^2.1.0"
   },
   "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
+    "node": ">=0.16.0",
+    "homebridge": ">=1.5.0"
   },
   "bugs": {
-    "url": "https://github.com/kurtwarwick-new/homebridge-cron-switch/issues"
+    "url": "https://github.com/via-justa/homebridge-cron-switch/issues"
   },
-  "homepage": "https://github.com/kurtwarwick-new/homebridge-cron-switch#readme",
+  "homepage": "https://github.com/via-justa/homebridge-cron-switch#readme",
   "main": "index.js",
-  "author": "Kurt Warwick"
+  "author": "Kurt Warwick / updated by via-justa"
 }
