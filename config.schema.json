@@ -15,6 +15,13 @@
                 "decription": "The time to fire off your job, in CRON syntax.",
                 "type": "string",
                 "required": true
+            },
+            "turnOffDelay": {
+                "title": "Turn off delay in milliseconds",
+                "decription": "Milliseconds until the accessory is turned off after the job has been triggered. Default: 100",
+                "type": "number",
+                "required": false,
+                "default": 100
             }
         }
     }
